@@ -75,7 +75,7 @@ So "tankless" in practice still needs either a **first-water dump** (wastes wate
 | Tap water (reference) | < 1 |
 
 GB 5749-2022 limit for comparison: **100 CFU/mL** (see [water-safety-standards.md](water-safety-standards.md)).
-⚠️ Caveats: this is an accelerated lab protocol, not field data. The press release is industry-sponsored (one vendor's tankless products feature in it). The same article says in post-filter tests **LED-UV performed only "fairly ordinary"**, behind UV mercury lamp (99.84 %) and microporous / hollow-fibre filtration (99.6–99.8 %). The article cites field surveys too: CDC Tianjin reported an **18.8 %** exceedance rate for RO units, and a Fudan Shanghai study found **>50 %** of units over the limit. ⚠️ Those were not traced to the primary papers.
+⚠️ Caveats: this is an accelerated lab protocol, not field data. It is an industry press release, and its funding or vendor involvement was not checked. The same article says in post-filter tests **LED-UV performed only "fairly ordinary"**, behind UV mercury lamp (99.84 %) and microporous / hollow-fibre filtration (99.6–99.8 %). The article cites field surveys too: CDC Tianjin reported an **18.8 %** exceedance rate for RO units, and a Fudan Shanghai study found **>50 %** of units over the limit. ⚠️ Those were not traced to the primary papers.
 
 **Field study, Ahvaz (Iran), 6-stage domestic RO with post-carbon and mineral cartridges** ([PMC8172727](https://pmc.ncbi.nlm.nih.gov/articles/PMC8172727/)) [paper]: outlet HPC climbed to about **5500–6000 CFU/mL within a month** of filter change; mean outlet counts (1807 / 3026 CFU/mL) were higher than the inlet (287 / 166).
 
@@ -108,11 +108,11 @@ Reference doses: NSF/ANSI 55 Class A = **40 mJ/cm²**, Class B = 16 mJ/cm² ([AN
 
 | | Tankless 600–800G | Small tank (3–5 L) + UV |
 |---|---|---|
-| Size on countertop | Larger membrane housing (3012/3013), bigger pump and PSU | Small 1812 membrane + 1.6 A pump; tank adds volume |
+| Size on countertop | Larger membrane housing (3012/3013), bigger pump and PSU | Small 1812 membrane and pump (one 75G build used a 24 V 1.6 A PSU); tank adds volume |
 | Instant flow | ≈1–1.5 L/min best case | Fast while tank has water (kettle in 33 s, 75G build) |
 | Stale water | Needs flush logic / first-water dump | Tank water is "stale" by design; UV + turnover matter |
 | Bacteria (white-paper lab data) | Lower (10²–10³ CFU/mL with post-carbon) | Higher (10⁴ with post-carbon) without disinfection |
 | Feeds a heater? | Low flow makes first-cup TDS higher; a tank is suggested for 管线机 ([duohuanbao](https://www.duohuanbao.com/archives/537371.html)) | Better suited |
-| Electrical | 24 V ≥4 A | 24 V ~1.6 A ([post/a83060p0](https://post.smzdm.com/p/a83060p0/)) |
+| Electrical | 24 V ≥4 A | 24 V 1.6 A PSU in one 75G build ([post/a83060p0](https://post.smzdm.com/p/a83060p0/)) |
 
 A hybrid is also documented: tankless high-flux production plus a **small pure-water reservoir used only for membrane flushing**, as on the [yuunt board](https://oshwhub.com/yuunt/600g).
