@@ -68,3 +68,4 @@ Early exploration. Collecting and analyzing real DIY builds (video tutorials, bu
 ## Research
 
 - [Bilibili 「DIY净水器」 video survey: architecture index](research/videos/README.md)
+- [Design-dimension research: leak protection, tank vs tankless + UV, enclosure, heating, parts, standards](research/dimensions/README.md)
