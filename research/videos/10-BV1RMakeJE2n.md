@@ -44,7 +44,7 @@ flowchart LR
   RO -- pure port --> CV["Check valve"] --> HPS["HP switch"] --> T2{tee}
   T2 --> TANK["Pressure tank"]
   T2 --> T33["T33 post carbon"] --> TDS2["Pure TDS probe (tee)"] --> F["Drinking faucet"]
-  LEAK["Leak probe on floor"] -.stop.-> PUMP
+  LEAK["Leak probe on floor"] -. stop .-> PUMP
 ```
 
 ## 3. Tags
