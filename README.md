@@ -64,3 +64,7 @@ Before committing to a design, we're first defining the **analysis dimensions** 
 ## Status
 
 Early exploration. Collecting and analyzing real DIY builds (video tutorials, build posts, BOMs) and documenting common pitfalls and their solutions.
+
+## Research
+
+- [Bilibili 「DIY净水器」 video survey: architecture index](research/videos/README.md)
