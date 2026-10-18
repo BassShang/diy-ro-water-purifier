@@ -55,7 +55,7 @@ DIY users do install these: 爱董小白 used a **3分 protector** and notes 3�
 3. **Nuisance trips from humidity.** Installers report the puck can pop in a damp cabinet ([Buder FAQ](https://buderwater.com/en/%e6%95%85%e9%9a%9c%e6%8e%92%e9%99%a4-2/)); humid southern climates need more frequent puck replacement ([post/ak3ld3z8](https://post.smzdm.com/p/ak3ld3z8/), excerpt).
 4. **Pucks are single-use**: once swollen, they must be replaced ([彰鴻](https://www.chwater.com.tw/productsin426.html)).
 5. **Placement.** Water has to reach the sensor. Both the Qinyuan patent and the retailer texts put it at the **lowest point / where water collects**; a leak that sprays outside the cabinet or down the back of the enclosure may never reach it. For an enclosed countertop box, this argues for an **internal drip tray with the probe and puck in it**.
-6. **Pressure-tank or housing bursts are faster than any sensor.** Cracking housings/tees are the most-cited flood cause in this project's [problems.md](../../problems.md) (items 1–3). Leak protection limits damage; it doesn't replace pressure-rated parts.
+6. **Pressure-tank or housing bursts are faster than any sensor.** Cracked housings and tees are the first leak problem listed in this project's [problems.md](../../problems.md) (items 1–3). Leak protection limits damage; it doesn't replace pressure-rated parts.
 7. **Protection only covers the feed line.** If the drain hose pops off the sink tailpiece, concentrate still flows while the pump runs. Probe → board → solenoid **and pump** shutdown covers this case; the mechanical puck on the feed also stops it once it trips.
 
 ## 4. Design implications for this project
