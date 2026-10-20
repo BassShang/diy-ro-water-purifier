@@ -8,56 +8,62 @@
 | Title (en) | "Why I recommend you DIY a purifier \| Step-by-step tutorial series (1) \| Winter" |
 | Uploader | 温特的移动城堡 |
 | Link | https://www.bilibili.com/video/BV1mF15YuEfh |
-| Plays | 62,646 (Bilibili search API, 2026-10-18) |
+| Plays | 62,809 (Bilibili view API, 2026-10-20) |
 | Published | 2024-10-28 |
 | Duration | 5:03 |
+| aid | 113383479252083 |
 
-**Data limits for this video:** Bilibili returned HTTP 412 to this box before the video, its comments, or its audio could be fetched, and per the rate-limit rule Bilibili access was stopped. Only the search-API metadata/description (fetched before the block), the BiliPlus mirror metadata, and the uploader cover image (via the BiliPlus image mirror) were available. **Nothing below comes from watching the video.**
+**Sources used this run (2026-10-20 ~20:24 Asia/Shanghai):** anonymous `x/web-interface/view` API (HTTP 200); anonymous `x/v2/reply/main` (HTTP 200) for hot comments (no uploader pin). **Nothing below comes from watching the video.** No yt-dlp / in-video frames this pass (Phase A).
 
-Description: "手把手教会你选购组装的每一步，分享你我踩过的每个坑" (teaches every step of buying and assembling, and shares every pitfall we've hit).
+Description: "手把手教会你选购组装的每一步，分享你我踩过的每个坑"
 
-**Series context (from search-result titles and tags only):** parts 2–4 cover "core components' working principles", with tags **高压开关 (HP switch), 低压开关 (LP switch), 进水电磁阀 (inlet solenoid), 漏水保护器 (leak protector), 净水器漏水 (purifier leaks), 废水比 (waste ratio)**. Parts 5–7 cover installation, with tags **切管刀 (tube cutter), cck, 净水器支架/挂板 (stand / hanging plate), 生料带 (PTFE tape), 后置活性炭 (post carbon), t33, 废水电磁阀 (waste solenoid)**. Videos in the series: BV1bQSoYuEPi, BV1NHDYYvEi3, BV1eADYYmEk6, BV1X2UXYwEG8, BV1eGzYYHEnw, BV1vgzYYXEw9 (not analyzed; all rank below the top 20).
+**Series context (prior survey / search tags):** later parts cover LPS/HPS, inlet solenoid, **漏水保护器**, waste ratio, PTFE tape, T33, waste solenoid, CCK, hanging plate — other BVids not fetched this run.
 
-## 2. Architecture (cover only)
+## 2. Architecture (cover + comments; video not watched)
 
-The cover shows a **commercial-style rack purifier** ("商用直饮净水机" printed on a dark steel bracket) with **3 × 10" housings** (IN/OUT ports linked by tubing), a **pressure gauge** on the bracket, an inline cartridge on top, and a **control panel** (Chinese labels such as 全自动反渗透纯水机, with a 7-segment display and indicator LEDs). This part is the "why DIY" motivation episode, so its own water path isn't verifiable.
+Motivation episode (“why DIY”). Cover (prior): commercial-style rack with **3 × 10"** housings, gauge, controller. Water path for this part **not** specified in API text.
 
-```mermaid
-flowchart LR
-  IN["Feed"] --> H1["10in #1"] --> H2["10in #2"] --> H3["10in #3"] --> RO["RO + post (on top, unverified)"] --> OUT["Outlet"]
-  G["Pressure gauge"] -.-> H3
-```
-*Matches the cover only. Unverified.*
+Hot consensus useful to the series theme:
+
+- **Small-flux + pressure tank** as a practical sweet spot: little 陈水, diluted in tank (@bbb_uuu).
+- For rust/algae only + boil: **10" 大蓝瓶** whole-house pre often enough; uploader still suggests adding a drinking RO if possible (@清浅时光_醉月 / @温特的移动城堡).
+- DIY joy vs kit price: NSF/CCK parts can erase savings vs a shop-built DIY machine (@SYZEgo / cost breakdown reply).
+
+No mermaid upgrade beyond prior cover-level sketch.
 
 ## 3. Tags
 
 | Dimension | Finding |
 |---|---|
-| Inlet method | Not verifiable |
-| Filter stages | 3 × 10" + inline (cover) |
-| RO membrane & pump | Not verifiable |
-| Storage | Not verifiable |
-| Water safety | Not mentioned |
+| Inlet method | Not in this episode’s API text |
+| Filter stages | Cover: 3×10" + RO/post unverified |
+| RO membrane & pump | Series later; proprietary brand RO ¥699–899 called out in hot |
+| Storage | Hot favors small-flux **+ tank** |
+| Water safety | Waste port clog → membrane kill / high TDS (@整活仙爷 / uploader) |
 | Sterilization (UV) | Not mentioned |
-| Heating | Not mentioned |
-| Leak/flood protection | Leak protector covered later in the series (tags) |
-| Structure & portability | Steel-bracket rack (cover). Stand vs plate discussed in part 5 (tags) |
-| Electronics & smart | Control panel and pressure gauge (cover). HP/LP switch and solenoids covered in parts 2–4 (tags) |
-| Brands | CCK (series tags) |
-| Cost (BOM) | Not available |
-| Maintenance | Not available |
+| Heating | Boil-only path discussed |
+| Leak/flood protection | Series tags include leak protector (not this episode’s comments) |
+| Structure & portability | Rack / 商用直饮 style cover |
+| Electronics & smart | Controller on cover |
+| Brands | Commenters: 先看 unit; CCK housings/tube; 中荷 fittings |
+| Cost (BOM) | Not priced in pin; uploader sells adjustable configs on 海鲜市场 |
+| Maintenance | Flush new filters (silicone/oil sheen anecdote); waste line must stay clear |
 
 ## 4. BOM
 
-Not available.
+None in pin/hot text for this motivation episode.
 
 ## 5. Problems / pitfalls
 
-The description promises "every pitfall"; specifics not accessible.
+| Problem | Source | Solution mentioned? |
+|---|---|---|
+| First-cup TDS with tank? | Hot | **Claimed:** small-flux + tank dilutes residual 陈水 |
+| Only need rust/algae filter for boiled water | Hot | **Uploader:** 10" blue housing OK for whole-house; prefer add RO |
+| Proprietary RO cartridges ¥700–900 | Hot | Framed as 割韭菜 |
+| DIY parts + shipping ≥ shop DIY machine | Hot | **Discussed:** savings depend on downgrading housings/fittings |
+| Blocked waste line → membrane dies fast | Hot / uploader | **Yes:** clear waste; high TDS may mean membrane already failed |
+| Oily sheen after RO | Hot | **Suggested:** flush preservative; check post-carbon |
 
 ## 6. Architecture screenshots
 
-Cover image (not an in-video frame):
-
-![Cover: commercial-style rack unit with gauge and controller](img/18-BV1mF15YuEfh-cover-rack-unit-gauge.jpg)
-*Cover: a 3-housing rack purifier with a pressure gauge and an RO control panel.*
+**No in-video frames this pass.** Cover from the prior survey remains cover-only evidence.
