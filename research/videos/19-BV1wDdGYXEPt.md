@@ -8,56 +8,66 @@
 | Title (en) | "Sharing 3 years of experience using a DIY purifier" |
 | Uploader | 红星小学中队长 |
 | Link | https://www.bilibili.com/video/BV1wDdGYXEPt |
-| Plays | 59,322 (Bilibili search API, 2026-10-18) |
+| Plays | 59,381 (Bilibili view API, 2026-10-20) |
 | Published | 2025-04-10 |
 | Duration | 6:40 |
+| aid | 114313708700808 |
 
-**Data limits for this video:** Bilibili returned HTTP 412 to this box before the video, its comments, or its audio could be fetched, and per the rate-limit rule Bilibili access was stopped. Only the search-API metadata/description (fetched before the block), the BiliPlus mirror metadata, and the uploader cover image (via the BiliPlus image mirror) were available. **Nothing below comes from watching the video.**
+**Sources used this run (2026-10-20 ~20:26 Asia/Shanghai):** anonymous `x/web-interface/view` API (HTTP 200); anonymous `x/v2/reply/main` (HTTP 200) for **pinned mall links** + hot long-term maintenance tips. **Nothing below comes from watching the video.** No yt-dlp / in-video frames this pass (Phase A).
 
-Description: empty. Search tags: 水电预留 (plumbing provisions), 全屋净水, 购物分享, 净水, 净水器, 我家的装修经验分享, DIY, RO反渗透. The uploader's other videos include "换了根10元滤芯，TDS直接到0了" (BV1iX4y1D72J) and a critical take on purifier sellers (BV144dUBsEmv); neither was analyzed.
+Description: empty. Prior search tags: 水电预留, 全屋净水, DIY, RO反渗透, etc.
 
-**Why it matters:** this is the only top-20 video about **long-term (3-year) ownership and maintenance**.
+**Why it matters:** only top-20 entry focused on **~3-year ownership / running cost** (cover: 「年均50元」).
 
-## 2. Architecture (cover only)
+## 2. Architecture (pin + cover + comments; video not watched)
 
-The cover shows a **compact plate-mounted RO** lying on the floor during a filter change: a white base plate, a **booster pump** (blue label), **inline quick-change cartridges** (one with a teal cap and a red "B…" label), a small control box, and the power cord. A replacement PP-style cartridge and a basin of old cartridges sit nearby. Cover text: **"年均50元 净水方案 / 3年使用体验分享"** ("a water-purification plan costing ¥50 a year on average").
+- **Cover** (prior): compact **plate-mounted** pumped RO with inline cartridges during a filter change; 「年均50元」.
+- **Pinned:** mall links for the **3-year unit** (promo code **B3883** for free filters); notes **大胖瓶** needs clearance; unit **without enclosure** (“罩没啥用”).
+- Hot identifies it as a **乐天鹅 / 乐天**-class DIY machine with **post-carbon + T33**; commenters debate bacteria on post-carbon and whether to add **UV** on the outlet (@Mishimaling).
+- Flux: commenters treat it as **75G + pressure tank** (uploader: “带桶啊 出水很快”) (@欧尼酱Official thread).
+- Newer shop **A-series** said to move 5-stage→3-stage, 100G/400G options, 米家 support (@拾光xzj) — **not** confirmed as this video’s hardware.
 
 ```mermaid
 flowchart LR
-  IN["Feed"] --> PRE["Pre cartridge(s)"] --> PUMP["Booster pump"] --> RO["RO"] --> POST["Post cartridge"] --> F["Faucet"]
+  IN["Feed"] --> PRE["Pre cartridge(s)"] --> PUMP["Booster"] --> RO["RO ~75G"] --> POST["Post carbon / T33"] --> F["Faucet"]
+  RO --> TANK["Pressure tank"]
   RO -- concentrate --> DR["Drain"]
 ```
-*A generic pumped-RO layout matching the visible parts. Stage list unverified.*
+*Tank + ~75G from comments; post-carbon/T33 from hot identification; exact stage count unverified.*
 
 ## 3. Tags
 
 | Dimension | Finding |
 |---|---|
-| Inlet method | Not verifiable |
-| Filter stages | Inline cartridges (cover). Count unverified |
-| RO membrane & pump | Booster pump visible |
-| Storage | Not verifiable |
-| Water safety | Not mentioned |
-| Sterilization (UV) | Not mentioned |
+| Inlet method | Under-sink / plate mount (cover) |
+| Filter stages | Pumped RO + post carbon/T33 (comments). Pin: shop DIY kit |
+| RO membrane & pump | ~75G tanked (comments). Hard-water user: 150G RO + 3.2G tank anecdote |
+| Storage | Pressure tank (uploader + comments) |
+| Water safety | Hot: post-carbon biofilm risk; UV on outlet suggested for direct drink |
+| Sterilization (UV) | Suggested in comments — not confirmed on uploader’s unit |
 | Heating | Not mentioned |
 | Leak/flood protection | Not mentioned |
-| Structure & portability | Compact base plate. Easy to lift out for service (cover) |
-| Electronics & smart | Small control box (cover) |
-| Brands | Not verifiable |
-| Cost (BOM) | Running cost about **¥50/year** (cover claim) |
-| Maintenance | **Topic: 3-year use and filter changes** |
+| Structure & portability | Compact plate; no enclosure (pin). Check space for 大胖瓶 |
+| Electronics & smart | Small control box (cover). Newer A-series: 米家 (comment) |
+| Brands | Pin shop links; hot: 乐天鹅 / 乐天; 陶氏 RO on other builds |
+| Cost (BOM) | Cover **~¥50/year**. Hot: DIY filters ~¥30/year vs Xiaomi hundreds |
+| Maintenance | Color-based PP change; TDS rejection % and flow-decay formulas (@开心小小喵) |
 
 ## 4. BOM
 
-Not available.
+No DIY parts table. Uploader **pinned product links** (mall) + filter promo **暗号 B3883**; notes enclosure optional. Recorded as affiliate / shop BOM, not a rack parts list.
 
 ## 5. Problems / pitfalls
 
-Not available.
+| Problem | Source | Solution mentioned? |
+|---|---|---|
+| Post-carbon / T33 **bacterial growth**; not for cold direct-drink | Hot (@Mishimaling) | **Suggested:** boil, or add flow-sensing **UV** on outlet |
+| 75G too slow | Hot | **Uploader:** use **pressure tank** — faucet flow is from tank |
+| When to replace filters? | Hot | **Detailed tip:** PP by color (milk-chocolate → change); carbon every 3–4 PP changes; RO by TDS rejection & flow remaining % |
+| Hard water / muddy feed | Hot (@开心小小喵) | Frequent PP; want large pre housing but no space |
+| Old 5-stage kit hard to service vs new A-series | Hot (@拾光xzj) | **Advice:** buy newer A-series if shopping now |
+| PP → PVDF UF washable; fill own GAC | Hot (@爆炒知了猴) | Cost-saving tip (uploader amused) |
 
 ## 6. Architecture screenshots
 
-Cover image (not an in-video frame):
-
-![Cover: compact plate-mounted RO during filter change](img/19-BV1wDdGYXEPt-cover-plate-unit.jpg)
-*Cover: a compact plate-mounted pumped RO with inline cartridges, shown during maintenance.*
+**No in-video frames this pass.** Cover from the prior survey remains cover-only evidence.
