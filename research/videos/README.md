@@ -11,6 +11,8 @@ Survey of Bilibili videos returned by searching **「DIY净水器」 sorted by p
 > **2026-10-19 enrichment (Asia/Shanghai), pass 2 (~12:05–12:09):** anonymous view + reply APIs succeeded for BV1RhPCeLEHP (#05) including pinned comment + CNKB FPD-360P product photo. yt-dlp webpage download again returned **HTTP 412**; the run stopped immediately (no retries). #05 updated from view/comments only (no in-video frames). Remaining priority videos were not fetched.
 
 > **2026-10-19 enrichment (Asia/Shanghai), pass 3 (~13:09–13:11):** anonymous view + reply APIs succeeded for BV1Dz421U7CZ (#06) (pinned 乐天鹅800G vs 小米800G affiliate links; hot thread on 零陈水/纯水泡膜). yt-dlp webpage download returned **HTTP 412**; the run stopped immediately (no retries, no further videos). #06 updated from view/comments only (no in-video frames).
+>
+> **2026-10-20 enrichment (Asia/Shanghai), pass 4 (Phase A, APIs only):** anonymous view + reply APIs for remaining shallow entries; **no yt-dlp**. #07 BV1M24y1a7Nk: pinned full 100G BOM (PPF/UDF/CTO → RO 汇通 → T33 + 弱碱; 3.2G tank; ¥400–500). Continuing sequentially…
 
 ## Index (relevant videos, by plays)
 
@@ -22,7 +24,7 @@ Survey of Bilibili videos returned by searching **「DIY净水器」 sorted by p
 | 04 | 8 | 我老婆老说…今天做一个净水器 (Purifier to impress my wife) | 帅农鸟哥 | 267,616 | Stainless box, manual pour-in; sand/stone + bamboo charcoal canisters (comments); non-RO gravity/multi-media | No (pinned = tea promo) | No | D, C | [04](04-BV1nGUYY9ES7.md) |
 | 05 | 11 | 自己动手攒一台净水器有多简单 (How easy is DIY) | 西安无忧水务净水 | 239,912 | Housings + RO (unverified chain); **18 s CNKB FPD-360P combo waste valve** (pinned photo); wrong valve → no pure water | Waste valve only (CNKB FPD-360P-DC24V); no full BOM | No | D | [05](05-BV1RhPCeLEHP.md) |
 | 06 | 12 | diy通用滤芯净水器，成本便宜10倍，真的好用吗? (Universal-filter purifiers: any good?) | 哏工侃智能 | 223,487 | Review: 乐天鹅800G 通用滤芯 vs 小米800G 定制滤芯 (pinned); 零陈水/纯水泡膜 discussed in comments | Affiliate links only (not DIY BOM) | No | D | [06](06-BV1Dz421U7CZ.md) |
-| 07 | 15 | 花了500，我DIY了一台反渗透式净水器 (¥500 RO DIY) | Michael_8396 | 176,831 | 3×10" → pump → top RO housing + inline post; status-display board; pressure tank (cover) | Pinned (not fetched); ¥500 total | No | C (audio has no speech) | [07](07-BV1M24y1a7Nk.md) |
+| 07 | 15 | 花了500，我DIY了一台反渗透式净水器 (¥500 RO DIY) | Michael_8396 | 176,918 | PPF→UDF→CTO → pump 100G → RO 100G 汇通 → T33 + 弱碱; 3.2G tank; hanging plate + control board (pinned) | **Yes** (uploader pinned; ¥400–500) | Mermaid from pin | D | [07](07-BV1M24y1a7Nk.md) |
 | 08 | 17 | 75G五级净水器DIY教程 (75G 5-stage tutorial) | 不喝奶的鱼 | 164,927 | 5-stage, 75G RO, booster pump, pressure tank, control kit (title + cover) | No | No | C | [08](08-BV1Re4y1r7mw.md) |
 | 09 | 18 | 【vlog】净水器怎么自己安装？搬家拆机之后你还装的回去吗 (Reinstall after moving) | 甄莱斯 | 150,154 | Relocation/reinstall vlog; angle valve + dedicated faucet + drain (cover) | No | No | C | [09](09-BV1UuUKBnEAo.md) |
 | 10 | 20 | 沉浸式DIY手搓RO反渗透净水器教程 (Immersive RO build) | 马达师 | 141,242 | Raw TDS → 3×10" → tee{wash tap; gauge → LPS → solenoid → pump → RO → check → HPS → tee(tank) → T33 → pure TDS}; waste solenoid → drain; **leak probe auto-stop**; steel stand | No | Full verbal recap | T, C | [10](10-BV1RMakeJE2n.md) |
