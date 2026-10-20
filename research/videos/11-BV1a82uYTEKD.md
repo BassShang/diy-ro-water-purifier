@@ -4,7 +4,7 @@
 
 | Field | Value |
 |---|---|
-| Title (zh) | DIY净水器三代编年史，揭开DIY面纱，钱别花刀背上！ |
+| Title (zh) | DIY净水器三代编年史，揭开DIY老底，钱别花刀背上！ |
 | Title (en) | "A chronicle of three generations of DIY purifiers: exposing what's behind DIY, don't spend money in the wrong place!" |
 | Uploader | 水智狮 |
 | Link | https://www.bilibili.com/video/BV1a82uYTEKD |
@@ -17,7 +17,7 @@
 
 Description: "DIY净水器都一样？哪哪都好？哪些说法是在蒙你？\n5分钟系统的说说市面顶流DIY净水器"
 
-Note: view API title uses 「揭开DIY面纱」; prior survey had 「揭开DIY面纱」 vs older typo 「面底」 — using live API title.
+Note: view API title uses 「揭开DIY老底」; prior survey had 「揭开DIY老底」 vs older typo 「面底」 — using live API title.
 
 ## 2. Architecture (description + comments; video not watched)
 
