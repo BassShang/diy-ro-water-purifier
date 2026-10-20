@@ -8,58 +8,66 @@
 | Title (en) | "[vlog] How to install a purifier yourself? After dismantling it to move house, can you put it back?" |
 | Uploader | 甄莱斯 |
 | Link | https://www.bilibili.com/video/BV1UuUKBnEAo |
-| Plays | 150,154 (Bilibili search API, 2026-10-18) |
+| Plays | 150,163 (Bilibili view API, 2026-10-20) |
 | Published | 2025-11-24 |
 | Duration | 2:29 |
+| aid | 115598289798634 |
 
-**Data limits for this video:** Bilibili returned HTTP 412 to this box before the video, its comments, or its audio could be fetched, and per the rate-limit rule Bilibili access was stopped. Only the search-API metadata/description (fetched before the block), the BiliPlus mirror metadata, and the uploader cover image (via the BiliPlus image mirror) were available. **Nothing below comes from watching the video.**
+**Sources used this run (2026-10-20 ~20:08 Asia/Shanghai):** anonymous `x/web-interface/view` API (HTTP 200) for metadata (page part: **「2号净水器移机更换」**); anonymous `x/v2/reply/main` (HTTP 200) for hot comments (no uploader pin). **Nothing below comes from watching the video.** No yt-dlp / in-video frames this pass (Phase A).
 
-Description: "还有谁不会自己装净水器的？在线等" (Anyone else who can't install a purifier themselves? Waiting online.)
+Description: "还有谁不会自己装净水器的？在线等"
 
-**Why it matters for this project:** it's the only top-20 video focused on **re-installing a purifier after moving**, which is exactly the renter use case.
+**Why it matters for this project:** only top-20 entry focused on **re-installing after moving** (renter use case). Appears to relocate a pre-built / brand unit, not a DIY rack (**unverified** beyond title/cover/page part).
 
-## 2. Architecture (cover only)
+## 2. Architecture (cover + page title; video not watched)
 
-The cover ("好男人必备 / 0成本移装净水器", must-have for good husbands: relocate a purifier at zero cost) shows the **under-sink cabinet** of the new home. Two angle valves sit on the wall with a white tube connected at one, there's a separate purifier faucet hole/tap on the counter, a **blue and a white tube** run along the cabinet back, plus the drain trap. The purifier unit itself and its stages aren't visible. It seems to be a brand or pre-built unit being relocated, not a DIY build (**unverified**).
+- **Page part:** 「2号净水器移机更换」 — relocating / reinstalling unit #2.
+- **Cover** (prior survey): under-sink cabinet — angle valves, dedicated faucet, blue/white tubing, drain trap. Unit stages **not** visible.
+- Comments do not name filter stages, membrane size, or a DIY BOM. Brand names appear only as commenter questions (美的白泽 Max 1200G, 安吉尔, 九阳天净) — **not** confirmed as the unit in the vlog.
 
 ```mermaid
 flowchart LR
-  AV["Angle valve (cold) + tee"] --> U["Purifier unit (not visible)"] --> F["Dedicated faucet on countertop"]
+  AV["Angle valve (cold) + tee"] --> U["Purifier unit (not visible)"] --> F["Dedicated faucet"]
   U -- concentrate --> D["Sink drain"]
 ```
-*A generic layout matching the visible under-sink fittings. Not verified against the video.*
+*Generic under-sink layout matching the cover. Not verified against the video.*
 
 ## 3. Tags
 
 | Dimension | Finding |
 |---|---|
-| Inlet method | Angle valve under the sink (cover) |
-| Filter stages | Not mentioned |
-| RO membrane & pump | Not mentioned |
-| Storage | Not mentioned |
+| Inlet method | Angle valve under sink (cover) |
+| Filter stages | Not mentioned in API/comments |
+| RO membrane & pump | Not named for the vlog unit. Uploader reply cites 增压泵 mismatch as a noise cause (general) |
+| Storage | Uploader reply mentions **压力桶** as a possible factor in pump noise (general tip) |
 | Water safety | Not mentioned |
 | Sterilization (UV) | Not mentioned |
 | Heating | Not mentioned |
 | Leak/flood protection | Not mentioned |
-| Structure & portability | **Topic is uninstall/reinstall when moving** (title). Details unverified |
-| Electronics & smart | Not mentioned |
-| Brands | Not mentioned |
-| Cost (BOM) | "0成本" / zero cost relocation (cover slogan) |
-| Maintenance | Not mentioned |
+| Structure & portability | **Topic = move / reinstall** (title + page part). Hot: measure cabinet depth before buying (@啊伟你好骚) |
+| Electronics & smart | Commenter asks about 美的白泽 touch faucet — unanswered usefully |
+| Brands | Not confirmed for the filmed unit |
+| Cost (BOM) | Cover slogan 「0成本移装」 — relocation labor/parts cost claim only |
+| Maintenance | Hot: third-party filter substitutes requested; unanswered |
 
 ## 4. BOM
 
-Not available.
+None. Relocation vlog; no parts list in pin (no pin) or hot text.
 
 ## 5. Problems / pitfalls
 
 | Problem | Source | Solution mentioned? |
 |---|---|---|
-| Can people reinstall a purifier themselves after moving? | Title | Implied yes (DIY relocation vlog); steps not verified |
+| Persistent **buzzing / humming** after install | Hot (@sevenyizhu000) | **Uploader guess:** missing/wrong **压力桶**, bad plumbing layout, or **增压泵** mismatch — call a tech |
+| Installer damaged pipe | Hot (@吉英爱芷昂) | **Advice:** hire a reliable installer |
+| Cabinet door won’t close (unit too deep) | Hot (@啊伟你好骚) | **Yes:** measure cabinet depth before purchase |
+| Hard to mount when sink has a small window behind | Hot (@quwgvdshha) | **Advice:** site survey before install |
+| Higher water bill after RO | Hot (@゙龙傲天) | **Speculated:** waste-water discharge (not measured) |
+| Still need a separate countertop drinker? | Hot | **Uploader:** no — dedicated pure outlet is enough |
 
 ## 6. Architecture screenshots
 
-Cover image (not an in-video frame):
+**No in-video frames this pass.** Phase A uses view/reply APIs only. Cover from the prior survey:
 
 ![Cover: under-sink angle valves and tubing](img/09-BV1UuUKBnEAo-cover-undersink-plumbing.jpg)
-*Cover: the under-sink connection points (angle valves, tubing, drain) at the new home.*
+*Cover: under-sink connection points (angle valves, tubing, drain) at the new home.*
