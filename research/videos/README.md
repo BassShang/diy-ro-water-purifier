@@ -12,7 +12,7 @@ Survey of Bilibili videos returned by searching **「DIY净水器」 sorted by p
 
 > **2026-10-19 enrichment (Asia/Shanghai), pass 3 (~13:09–13:11):** anonymous view + reply APIs succeeded for BV1Dz421U7CZ (#06) (pinned 乐天鹅800G vs 小米800G affiliate links; hot thread on 零陈水/纯水泡膜). yt-dlp webpage download returned **HTTP 412**; the run stopped immediately (no retries, no further videos). #06 updated from view/comments only (no in-video frames).
 >
-> **2026-10-20 enrichment (Asia/Shanghai), pass 4 (Phase A, APIs only):** anonymous view + reply APIs for remaining shallow entries; **no yt-dlp**. #07 BV1M24y1a7Nk: pinned full 100G BOM (PPF/UDF/CTO → RO 汇通 → T33 + 弱碱; 3.2G tank; ¥400–500). #08 BV1Re4y1r7mw: pin only QQ group file for BOM; hot threads on PTFE tape / no-board wiring. #09 BV1UuUKBnEAo: move/reinstall vlog; install pitfalls in comments (noise, cabinet depth). #11 BV1a82uYTEKD: LTE-class 三级通用滤芯 pin; 开机断流 tips. Continuing…
+> **2026-10-20 enrichment (Asia/Shanghai), pass 4 (Phase A, APIs only):** anonymous view + reply APIs for remaining shallow entries; **no yt-dlp**. #07 BV1M24y1a7Nk: pinned full 100G BOM (PPF/UDF/CTO → RO 汇通 → T33 + 弱碱; 3.2G tank; ¥400–500). #08 BV1Re4y1r7mw: pin only QQ group file for BOM; hot threads on PTFE tape / no-board wiring. #09 BV1UuUKBnEAo: move/reinstall vlog; install pitfalls in comments (noise, cabinet depth). #11 BV1a82uYTEKD: LTE-class 三级通用滤芯 pin; 开机断流 tips. #12 BV1cJb96cEmn: seller short; TDS/mineral debate in comments. Continuing…
 
 ## Index (relevant videos, by plays)
 
@@ -29,7 +29,7 @@ Survey of Bilibili videos returned by searching **「DIY净水器」 sorted by p
 | 09 | 18 | 【vlog】净水器怎么自己安装？搬家拆机之后你还装的回去吗 (Reinstall after moving) | 甄莱斯 | 150,163 | Relocate/reinstall vlog (page: 2号移机); under-sink angle valve + faucet + drain (cover); stages unverified | No | No | D | [09](09-BV1UuUKBnEAo.md) |
 | 10 | 20 | 沉浸式DIY手搓RO反渗透净水器教程 (Immersive RO build) | 马达师 | 141,242 | Raw TDS → 3×10" → tee{wash tap; gauge → LPS → solenoid → pump → RO → check → HPS → tee(tank) → T33 → pure TDS}; waste solenoid → drain; **leak probe auto-stop**; steel stand | No | Full verbal recap | T, C | [10](10-BV1RMakeJE2n.md) |
 | 11 | 21 | DIY净水器三代编年史 (Three generations of DIY purifiers) | 水智狮 | 115,874 | Market overview of DIY gens; pin: 三级通用滤芯 mall (LTE-class); comments: 开机断流 / flood anecdotes | Affiliate link only | No | D | [11](11-BV1a82uYTEKD.md) |
-| 12 | 22 | 买净水器不知道怎么选…组装净水器、DIY 净水器教程 (Seller one-minute tutorial) | 钦选净水器 | 114,112 | Universal filters + dedicated faucet; rest unverified | No | No | — | [12](12-BV1cJb96cEmn.md) |
+| 12 | 22 | 买净水器不知道怎么选…组装净水器、DIY 净水器教程 (Seller one-minute tutorial) | 钦选净水器 | 114,130 | Seller 53s; 通用滤芯 + dedicated faucet (title/cover); stages unverified | No (hot DIY sketch only) | No | D | [12](12-BV1cJb96cEmn.md) |
 | 13 | 24 | 100块组装无电纯水机超详细教程 (¥100 no-electric RO) | 西安无忧水务净水 | 97,480 | **Pump-less** mains-pressure RO: inline pre → RO → inline post carbon (cover) | ¥100 total | No | C | [13](13-BV1dCXLYVEZC.md) |
 | 14 | 25 | 为什么把小米净水器改装成通用滤芯？ (Xiaomi → universal filters) | 另一半净水科技 | 97,232 | Brand Xiaomi machine with cartridge bays tubed out to external generic housings (cover) | No | No | C | [14](14-BV1ZG411g73g.md) |
 | 15 | 27 | 手把手教你安装净水器，新手友好 (Install tutorial) | 锦程0319 | 85,363 | 75G kit, frame or hanging-plate versions (seller description) | Kit prices ¥680 / ¥549 | No | D | [15](15-BV18m421j7A6.md) |
